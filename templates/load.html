@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
+    button{text-align: center;}
+    </style>
+    </head>
+  <head>
+    <title>File Upload</title>
+  </head>
+  <body>
+    <h1>File Upload</h1>
+    <form method="POST" action="" enctype="multipart/form-data">
+      <p><input type="file" name="file"></p>
+      <p><input type="submit" value="Submit"></p>
+    </form>
+
+<button onclick="myFunction()">Check extracted text</button>
+
+<script>
+function myFunction() {
+  location.replace("http://127.0.0.1:5000/engine")
+}
+</script>
+
+  </body>
+</html>
