@@ -2,7 +2,7 @@ import requests
 import os
 import json
 
-def ocr_space_file(filename, overlay=False, api_key='***********', language='eng'):
+def ocr_space_file(filename, overlay=False, api_key='2006765e9688957', language='eng'):
     
 
     payload = {'isOverlayRequired': overlay,
@@ -41,6 +41,5 @@ def extract_values():
         return ''
     
 
-extract_values()
 
 #End of package
